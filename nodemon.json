@@ -1,0 +1,15 @@
+{
+  "watch": ["server/"],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules/",
+    "dist/",
+    "src/",
+    "eslint.config.js",
+    "vite.config.ts",
+    "tailwind.config.js",
+    "postcss.config.js",
+    "tsconfig*.json"
+  ],
+  "exec": "node server/index.js"
+}
