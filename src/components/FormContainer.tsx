@@ -97,7 +97,7 @@ const FormContainer: React.FC = () => {
             </span>.
           </p>
           
-          {submission.result?.isFirstTimeUser ? (
+          {submission.result?.isFirstTimeUser && (
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
               <div className="flex items-start space-x-3">
                 <div className="flex-shrink-0">
@@ -116,12 +116,6 @@ const FormContainer: React.FC = () => {
                   </p>
                 </div>
               </div>
-            </div>
-          ) : (
-            <div className="bg-green-50 rounded-lg p-4 mb-6">
-              <p className="text-sm text-green-800">
-                📧 A confirmation email has been sent to <strong>{formData.email}</strong> with your application details and next steps.
-              </p>
             </div>
           )}
 
