@@ -179,7 +179,7 @@ const AppContent: React.FC = () => {
             </div>
             
             <p className="text-xs text-gray-500">
-              © 2025 Financial Solutions. Licensed lender. NMLS #123456. 
+              © 2025 Baran Ozdemir. Licensed lender. NMLS #123456. 
               Equal Housing Opportunity. All loans subject to credit approval.
             </p>
           </div>
